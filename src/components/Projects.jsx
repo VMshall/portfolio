@@ -5,10 +5,12 @@ import nikesPic from "../assets/nikes.png";
 function Projects() {
   return (
     <div className="container text-center my-5" id="projects">
-      <h2 className="mb-5 fw-bold section-title">Featured Projects</h2>
-      <div className="row">
+      <h2 className="mb-5 fw-bold">
+        <span className="section-title">Featured Projects</span>
+      </h2>
+      <div className="row g-3">
         <div className="col-md-4">
-          <div className="card p-3 mb-4 h-100">
+          <div className="card p-3 h-100">
             <a href="https://mynetflixindia.vercel.app/" target="_blank">
               <img src={netflixPic} alt="Netflix" className="card-img-top" />
             </a>
@@ -23,7 +25,7 @@ function Projects() {
           </div>
         </div>
         <div className="col-md-4">
-          <div className="card p-3 mb-4 h-100">
+          <div className="card p-3 h-100">
             <a href="https://mysidcupgolf.vercel.app/" target="_blank">
               <img
                 src={sidCupGolf}
@@ -42,7 +44,7 @@ function Projects() {
           </div>
         </div>
         <div className="col-md-4">
-          <div className="card p-3 mb-4 h-100">
+          <div className="card p-3 h-100">
             <a href="https://mynikes.vercel.app/" target="_blank">
               <img src={nikesPic} alt="Netflix" className="card-img-top" />
             </a>
