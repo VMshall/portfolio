@@ -8,20 +8,20 @@ function About() {
             <h2 className="mb-5 fw-bold section-title">About Me</h2>
             <div className="row">
                 <div className="col-md-4">
-                    <div className="card p-3 mb-4">
+                    <div className="card p-3 mb-4 h-100">
                         <div className="card-body">
                             <div className="icon mb-3">
                                 <FontAwesomeIcon icon={faBookOpen} size="2x" />
                             </div>
                             <h5 className="card-title">Academic Excellence</h5>
                             <p className="card-text">
-                            Second-year BTech student at IIT Madras, maintaining a strong academic record with focus on electronics and embedded systems.
+                            Maintaining a strong academic record with focus on electronics and embedded systems.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-4">
-                    <div className="card p-3 mb-4">
+                    <div className="card p-3 mb-4 h-100">
                         <div className="card-body">
                             <div className="icon mb-3">
                                 <FontAwesomeIcon icon={faMicrochip} size="2x"/>
@@ -34,7 +34,7 @@ function About() {
                     </div>
                 </div>
                 <div className="col-md-4">
-                    <div className="card p-3 mb-4">
+                    <div className="card p-3 mb-4 h-100">
                         <div className="card-body">
                             <div className="icon mb-3">
                                 <FontAwesomeIcon icon={faLightbulb} size="2x"/>
